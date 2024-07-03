@@ -1,0 +1,64 @@
+/* Reset 기본 스타일 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 전체 스타일 */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f0f0f0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #5c5c5c 3px solid;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+    text-align: right;
+}
+
+header li {
+    display: inline;
+    margin: 0 15px 0 15px;
+}
+
+header h1 {
+    float: left;
+}
+
+header nav {
+    float: right;
+}
+
+header #showcase {
+    min-height: 400px;
+    background: url("../images/mountain.jpg") no-repeat 0 -400px;
+    text-align: center;
+    color: #ffffff;
+}
+
+#showcase h1 {
